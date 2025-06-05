@@ -43,22 +43,7 @@ function App() {
             {...register('password', { required: true })}
           />
 
-          <input
-            className="w-full px-4 py-2 rounded-md mb-4"
-            type="edad"
-            name="edad"
-            placeholder="Escribe tu edad"
-            {...register('edad', { required: true })}
-          />
-
-          <input
-            className="w-full px-4 py-2 rounded-md mb-4"
-            type="genero"
-            name="genero"
-            placeholder="Escribe tu genero"
-            {...register('sexo', { required: true })}
-          />
-
+          
           <div className="flex items-center justify-center">
             <button
               className="px-4 py-1 rounded-md my-1 w-full font-semibold"
