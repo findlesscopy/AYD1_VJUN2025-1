@@ -43,13 +43,13 @@ function App() {
             {...register('password', { required: true })}
           />
 
-          <label htmlFor="password" className="text-text-100">Ciudad:</label>
+          <label htmlFor="password" className="text-text-100">Municipio:</label>
           <input
             className="w-full px-4 py-2 rounded-md mb-4"
-            type="ciudad"
-            name="ciudad"
-            placeholder="Escribe tu contraseña jeje"
-            {...register('ciudad', { required: true })}
+            type="municipio"
+            name="municipio"
+            placeholder="Escribe tu municipio"
+            {...register('municipio', { required: true })}
           />
 
           <div className="flex items-center justify-center">
